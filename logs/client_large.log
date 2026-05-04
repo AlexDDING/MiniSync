@@ -1,0 +1,12 @@
+[2026-05-04 17:31:24] [INFO] [pid=4728] main: MiniSync client started mode=remote src=./test_dir
+[2026-05-04 17:31:24] [INFO] [pid=4730] monitor: watch added ./test_dir
+[2026-05-04 17:31:24] [DEBUG] [pid=4731] scheduler: debounce update FULLSCAN stage5_after_start.txt
+[2026-05-04 17:31:24] [DEBUG] [pid=4730] monitor: fullscan emit stage5_after_start.txt
+[2026-05-04 17:31:24] [DEBUG] [pid=4730] monitor: fullscan emit stage5_local.txt
+[2026-05-04 17:31:24] [DEBUG] [pid=4731] scheduler: debounce update FULLSCAN stage5_local.txt
+[2026-05-04 17:31:24] [DEBUG] [pid=4730] monitor: fullscan emit stage5_remote.txt
+[2026-05-04 17:31:24] [DEBUG] [pid=4731] scheduler: debounce update FULLSCAN stage5_remote.txt
+[2026-05-04 17:31:24] [INFO] [pid=4730] monitor: initial scan completed root=./test_dir
+[2026-05-04 17:31:25] [INFO] [pid=4731] worker-1: remote sync success stage5_after_start.txt strategy=large-file resume offset=0 hash=6d908ea2443a73ad
+[2026-05-04 17:31:25] [INFO] [pid=4731] worker-2: remote sync success stage5_remote.txt strategy=large-file resume offset=0 hash=001515675af54c74
+[2026-05-04 17:31:25] [INFO] [pid=4731] worker-3: remote sync success stage5_local.txt strategy=large-file resume offset=0 hash=dd3f9f4e5ec7c35d

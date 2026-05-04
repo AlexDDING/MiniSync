@@ -1,0 +1,59 @@
+[2026-05-04 17:19:57] [INFO] [pid=2] main: MiniSync client started mode=local src=./test_dir
+[2026-05-04 17:19:57] [INFO] [pid=4] monitor: watch added ./test_dir
+[2026-05-04 17:19:57] [INFO] [pid=4] monitor: initial scan completed root=./test_dir
+[2026-05-04 17:22:21] [INFO] [pid=2] main: MiniSync client started mode=local src=./test_dir
+[2026-05-04 17:22:21] [INFO] [pid=4] monitor: watch added ./test_dir
+[2026-05-04 17:22:21] [DEBUG] [pid=4] monitor: fullscan emit stage5_local.txt
+[2026-05-04 17:22:21] [DEBUG] [pid=5] scheduler: debounce update FULLSCAN stage5_local.txt
+[2026-05-04 17:22:21] [INFO] [pid=4] monitor: initial scan completed root=./test_dir
+[2026-05-04 17:22:21] [INFO] [pid=5] worker-1: local sync success stage5_local.txt strategy=small-file hash=dd3f9f4e5ec7c35d
+[2026-05-04 17:22:22] [DEBUG] [pid=4] monitor: poll create stage5_local.txt
+[2026-05-04 17:22:22] [DEBUG] [pid=5] scheduler: debounce update CREATE stage5_local.txt
+[2026-05-04 17:22:22] [INFO] [pid=5] worker-2: local sync success stage5_local.txt strategy=small-file hash=dd3f9f4e5ec7c35d
+[2026-05-04 17:22:30] [DEBUG] [pid=4] monitor: poll create stage5_after_start.txt
+[2026-05-04 17:22:30] [DEBUG] [pid=5] scheduler: debounce update CREATE stage5_after_start.txt
+[2026-05-04 17:22:30] [INFO] [pid=5] worker-3: local sync success stage5_after_start.txt strategy=small-file hash=6d908ea2443a73ad
+[2026-05-04 17:29:31] [INFO] [pid=2] main: MiniSync client started mode=local src=./test_dir
+[2026-05-04 17:29:31] [INFO] [pid=4] monitor: watch added ./test_dir
+[2026-05-04 17:29:31] [DEBUG] [pid=4] monitor: fullscan emit stage5_after_start.txt
+[2026-05-04 17:29:31] [DEBUG] [pid=5] scheduler: debounce update FULLSCAN stage5_after_start.txt
+[2026-05-04 17:29:31] [DEBUG] [pid=4] monitor: fullscan emit stage5_local.txt
+[2026-05-04 17:29:31] [DEBUG] [pid=5] scheduler: debounce update FULLSCAN stage5_local.txt
+[2026-05-04 17:29:31] [DEBUG] [pid=4] monitor: fullscan emit stage5_remote.txt
+[2026-05-04 17:29:31] [DEBUG] [pid=5] scheduler: debounce update FULLSCAN stage5_remote.txt
+[2026-05-04 17:29:31] [INFO] [pid=4] monitor: initial scan completed root=./test_dir
+[2026-05-04 17:29:32] [INFO] [pid=5] worker-3: local sync success stage5_remote.txt strategy=small-file hash=001515675af54c74
+[2026-05-04 17:29:32] [INFO] [pid=5] worker-2: local sync success stage5_local.txt strategy=small-file hash=dd3f9f4e5ec7c35d
+[2026-05-04 17:29:32] [INFO] [pid=5] worker-1: local sync success stage5_after_start.txt strategy=small-file hash=6d908ea2443a73ad
+[2026-05-04 17:29:32] [DEBUG] [pid=4] monitor: poll create stage5_after_start.txt
+[2026-05-04 17:29:32] [DEBUG] [pid=5] scheduler: debounce update CREATE stage5_after_start.txt
+[2026-05-04 17:29:32] [DEBUG] [pid=4] monitor: poll create stage5_local.txt
+[2026-05-04 17:29:32] [DEBUG] [pid=5] scheduler: debounce update CREATE stage5_local.txt
+[2026-05-04 17:29:32] [DEBUG] [pid=4] monitor: poll create stage5_remote.txt
+[2026-05-04 17:29:32] [DEBUG] [pid=5] scheduler: debounce update CREATE stage5_remote.txt
+[2026-05-04 17:29:33] [INFO] [pid=5] worker-4: local sync success stage5_remote.txt strategy=small-file hash=001515675af54c74
+[2026-05-04 17:29:33] [INFO] [pid=5] worker-2: local sync success stage5_local.txt strategy=small-file hash=dd3f9f4e5ec7c35d
+[2026-05-04 17:29:33] [INFO] [pid=5] worker-3: local sync success stage5_after_start.txt strategy=small-file hash=6d908ea2443a73ad
+[2026-05-04 17:52:43] [INFO] [pid=5725] main: MiniSync client started mode=local src=./test_dir
+[2026-05-04 17:52:43] [INFO] [pid=5727] monitor: watch added ./test_dir
+[2026-05-04 17:52:43] [DEBUG] [pid=5728] scheduler: debounce update FULLSCAN stage5_after_start.txt
+[2026-05-04 17:52:43] [DEBUG] [pid=5727] monitor: fullscan emit stage5_after_start.txt
+[2026-05-04 17:52:43] [DEBUG] [pid=5727] monitor: fullscan emit stage5_local.txt
+[2026-05-04 17:52:43] [DEBUG] [pid=5728] scheduler: debounce update FULLSCAN stage5_local.txt
+[2026-05-04 17:52:43] [DEBUG] [pid=5727] monitor: fullscan emit stage5_remote.txt
+[2026-05-04 17:52:43] [DEBUG] [pid=5728] scheduler: debounce update FULLSCAN stage5_remote.txt
+[2026-05-04 17:52:43] [INFO] [pid=5727] monitor: initial scan completed root=./test_dir
+[2026-05-04 17:52:45] [INFO] [pid=5728] worker-3: local sync success stage5_after_start.txt strategy=small-file hash=6d908ea2443a73ad
+[2026-05-04 17:52:45] [INFO] [pid=5728] worker-2: local sync success stage5_remote.txt strategy=small-file hash=001515675af54c74
+[2026-05-04 17:52:45] [INFO] [pid=5728] worker-1: local sync success stage5_local.txt strategy=small-file hash=dd3f9f4e5ec7c35d
+[2026-05-04 17:53:23] [DEBUG] [pid=5727] monitor: poll modify stage5_after_start.txt
+[2026-05-04 17:53:23] [DEBUG] [pid=5728] scheduler: debounce update MODIFY stage5_after_start.txt
+[2026-05-04 17:53:26] [DEBUG] [pid=5727] monitor: poll modify stage5_after_start.txt
+[2026-05-04 17:53:26] [DEBUG] [pid=5728] scheduler: debounce update MODIFY stage5_after_start.txt
+[2026-05-04 17:53:28] [INFO] [pid=5728] worker-4: local sync success stage5_after_start.txt strategy=small-file hash=e795ed3fe722d792
+[2026-05-04 17:53:52] [DEBUG] [pid=5727] monitor: poll modify stage5_local.txt
+[2026-05-04 17:53:52] [DEBUG] [pid=5728] scheduler: debounce update MODIFY stage5_local.txt
+[2026-05-04 17:53:53] [INFO] [pid=5728] worker-3: local sync success stage5_local.txt strategy=small-file hash=f012f792fb9a42e8
+[2026-05-04 17:54:35] [DEBUG] [pid=5727] monitor: poll delete stage5_remote.txt
+[2026-05-04 17:54:35] [DEBUG] [pid=5728] scheduler: enqueue immediate DELETE stage5_remote.txt
+[2026-05-04 17:54:35] [INFO] [pid=5728] worker-2: local trash stage5_remote.txt
