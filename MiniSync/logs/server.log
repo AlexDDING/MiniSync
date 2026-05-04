@@ -1,7 +1,0 @@
-[2026-05-04 17:24:13] [ERROR] [pid=2] server: listen failed port=9001 error=Operation not permitted
-[2026-05-04 17:24:29] [INFO] [pid=4047] server: listening port=9001 root=./server_backup
-[2026-05-04 17:24:43] [INFO] [pid=4047] server: msg=FILE_BEGIN path=stage5_local.txt rc=0
-[2026-05-04 17:24:43] [INFO] [pid=4047] server: msg=FILE_BEGIN path=stage5_after_start.txt rc=0
-[2026-05-04 17:24:44] [INFO] [pid=4047] server: msg=FILE_BEGIN path=stage5_after_start.txt rc=0
-[2026-05-04 17:24:44] [INFO] [pid=4047] server: msg=FILE_BEGIN path=stage5_local.txt rc=0
-[2026-05-04 17:24:50] [INFO] [pid=4047] server: msg=FILE_BEGIN path=stage5_remote.txt rc=0

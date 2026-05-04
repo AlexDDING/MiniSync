@@ -1,7 +1,0 @@
-[2026-05-04 17:31:08] [INFO] [pid=4717] server: listening port=9002 root=./server_backup
-[2026-05-04 17:31:25] [INFO] [pid=4717] server: msg=QUERY_OFFSET path=stage5_after_start.txt rc=0
-[2026-05-04 17:31:25] [INFO] [pid=4717] server: msg=QUERY_OFFSET path=stage5_remote.txt rc=0
-[2026-05-04 17:31:25] [INFO] [pid=4717] server: msg=QUERY_OFFSET path=stage5_local.txt rc=0
-[2026-05-04 17:31:25] [INFO] [pid=4717] server: msg=FILE_BLOCK path= rc=0
-[2026-05-04 17:31:25] [INFO] [pid=4717] server: msg=FILE_BLOCK path= rc=0
-[2026-05-04 17:31:25] [INFO] [pid=4717] server: msg=FILE_BLOCK path= rc=0
